@@ -1,0 +1,80 @@
+x=10
+x=int(10)
+y=float(20)
+z=complex(1j)
+k=bool(True)
+m=None
+for i in [x,y,z,k]:
+print(i,type(i))
+
+x=10
+print(type(x))
+x=int(10)
+y=float(20)
+z=complex(1j)
+k=bool(True)
+m=None
+for i in [x,y,z,k,m]:
+    print(i,type(i))
+print(type(type(type)))
+
+variables are called identifiers,it has to be distinct.
+variables should:
+cannot be a keyword
+should not start with numbers
+spaces should not be there
+_ can be there
+no special char
+
+packing is used to define multiple datatypes' at a same time 
+x,y,z=10,20,30 is called unpacking
+
+type casting
+small-large           large-small
+implicit              explicit
+
+operators
+1)arithmetic: needs to operands
+f string(format string)
+2)relational operators: 
+3)Assignment operators: a=10,a+=5,a-=5,b*=2,b//=2,b%=3,a**=2,a>>=1,a<<=1
+4)logical operators: a=True
+b=False
+print(a and b)
+print(a or b)
+print(not a)
+5) bitwise operators:
+a=10
+b=3
+print (a&b)
+print (a|b)
+print (a^b)
+
+int-> binary
+
+left shift
+a<<b
+formula: a*2^b
+126<<4=126*2^4=2016
+
+right shift
+a>>b
+formula: a/2^b
+126>>4=126/2^4=7
+
+control flow statements: control flow of execution of flow of a program
+1.conditional: if, else, elseif
+	short end if and else:
+	ex: a, b, c, d, e= 10,34,21,45,33
+	max=a if a>b and a>c and a>d and a>e else\
+		b if b>c and b>d and b>e else\
+		c if c>d and c>e else\
+		d if d>e else e
+	print(max)
+ex: toggle the kth bit of the given num
+
+num=13
+k=2
+print(num^(1<<(k-1)))
+o/p: 15
+2.jump: 

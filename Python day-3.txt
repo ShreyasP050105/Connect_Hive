@@ -1,0 +1,14 @@
+oops:
+class Dog:
+sound="bark"
+dog1=dog()
+print(dog1.sound)
+
+types:
+abstraction: showing only the necessary functions
+encapsulation: 
+polymorphism: it is the way of taking the input and changing the output according to it.
+inheritance
+
+duck typing:
+decorators: is used to 

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome | Connect Hive</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom, #87cefa, #b0e0e6, #e0ffff);
+      color: #003366;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 60px;
+      position: relative;
+      z-index: 10;
+    }
+
+    .logo img {
+      height: 50px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #003366;
+      font-weight: 500;
+    }
+
+    .welcome-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: calc(100vh - 100px);
+      text-align: center;
+      position: relative;
+    }
+
+    .welcome-section h1 {
+      font-size: 4rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .welcome-section p {
+      font-size: 1rem;
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    .button-group {
+      display: flex;
+      gap: 20px;
+    }
+
+    .button-group a {
+      padding: 12px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s ease;
+    }
+
+    .btn-primary {
+      background-color: #003366;
+      color: #fff;
+    }
+
+    .btn-outline {
+      border: 2px solid #003366;
+      color: #003366;
+    }
+
+    .btn-outline:hover {
+      background-color: #003366;
+      color: #fff;
+    }
+
+    .bg-illustration {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+      z-index: 0;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="C:\connect_hive_project\static\images/logo.png" alt="Logo">
+    </div>
+    <nav>
+      <a href="C:\connect_hive_project\templates\home.html">Home</a>
+      <a href="C:\connect_hive_project\templates/about.html">About us</a>
+    </nav>
+  </header>
+
+  <section class="welcome-section">
+    <h1>WELCOME</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="button-group">
+      <a href="C:\connect_hive_project\templates/login.html" class="btn-primary">Get Started Now</a>
+      <a href="C:\connect_hive_project\templates/learn_more.html" class="btn-outline">Learn More</a>
+    </div>
+  </section>
+
+  <img class="bg-illustration" src="static/images/welcome-illustration.jpg" alt="Background" />
+</body>
+</html>

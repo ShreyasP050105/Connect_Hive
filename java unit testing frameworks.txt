@@ -1,0 +1,85 @@
+java unit testing frameworks:
+JUnit
+TestNG
+Ham crest
+Test Driven Development-Testing Philosophy
+
+write a class called as maximum and in side of the class write a method called find maximum to find the max of 2 numbers and also write unit test to test the max and to test junit
+
+src->in->ac->jyothyit->junit->sample programs
+
+netbeans creates a folder called test and create all the above structure
+test->in->ac->jyothyit->junit->sample programs
+
+maximum of Java
+
+public class maximum
+{
+public static int findMaximum(int a, int b)
+{
+    if(a>b)
+	return a;
+    else
+	return b;
+    }
+}
+
+later need to test file Maximum-java file to confirm program is working
+
+procedure to create a test class in netbeans
+place the cursor on source file-> right click->tools->create/update
+junit writes test class called as MaximumTest.java
+construct is written in this:
+public MaximumTest()
+{
+}
+
+public void testFindMaximum()
+{
+assertEquals(4,Maximum,findMaximum(4,2));
+}
+
+code coverage:
+checking all the possible methods
+
+Steps:
+file->new project->categories->java with ant->projects->java appln->next->project name->bcjunit
+there are 3 tabs in netbeans project, file, services
+project->source
+files->bcunit->src->create the package structure->right click->new->java package->package->in.ac.jyothyit.junit.sampleprogrms->finish
+sample programs->right click->java class->class name->maximum->finish
+write the program and save
+sample programs->right click->tools->create/update->classname->in.ac.jyothyit.junit.sampleprogrms.MaximumTest->framework->JUnit4->OK 
+test folder is created
+@Test is annotation
+
+
+2) write a class called called odd even.java within that write a method called isEven(int n) if it is even return Boolean and write a text class oddevenTest.java then test the method isEven
+
+3)write a class called as calculator inside it write the methods called add,sub,mul,div,modulo
+
+4)write a class called as triangle and write methods called perimeter and area and write test class called perimeter and area
+
+testing
+1)write a class called as Abg.java inside that create methods gama,beta,alpha and write the test class for that
+
+test driven development(TDD):
+it is a philosophy of software development
+in tdd first we r going to write test methods and then we r going to write the methods initially the method will fail go on altering the method until all the methods are passed 
+
+1) write a class to find out the first n natural numbers also write the test class
+
+summation.java
+public class summation
+{
+public static int sum(int n)
+{
+return 0;
+}
+}
+
+
+life cycle methods:
+
+
+unit testing framework-development philosophy
